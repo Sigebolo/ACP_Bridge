@@ -1,0 +1,27 @@
+{
+  "input_hooks": {
+    "gemini_cli_message": {
+      "endpoint": "/api/gemini/message",
+      "method": "POST",
+      "handler": "handle_gemini_message",
+      "description": "Receive messages from Gemini CLI"
+    },
+    "gemini_cli_review": {
+      "endpoint": "/api/gemini/review", 
+      "method": "POST",
+      "handler": "handle_gemini_review",
+      "description": "Receive code review from Gemini CLI"
+    },
+    "gemini_cli_suggestion": {
+      "endpoint": "/api/gemini/suggestion",
+      "method": "POST", 
+      "handler": "handle_gemini_suggestion",
+      "description": "Receive suggestions from Gemini CLI"
+    }
+  },
+  "windsurf_integration": {
+    "display_method": "notification",
+    "auto_open": true,
+    "sound_alert": true
+  }
+}

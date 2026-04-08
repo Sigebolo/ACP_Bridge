@@ -1,0 +1,58 @@
+{
+  "server": {
+    "port": 3000,
+    "wsPort": 3001,
+    "host": "localhost",
+    "cors": {
+      "origin": "*",
+      "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+      "allowedHeaders": ["Content-Type", "Authorization"]
+    }
+  },
+  "database": {
+    "dataPath": "./data",
+    "artifactsPath": "./artifacts",
+    "backupEnabled": true,
+    "backupInterval": "1h"
+  },
+  "notifications": {
+    "maxNotifications": 10000,
+    "cleanupInterval": "24h",
+    "defaultRetention": "30d",
+    "broadcastTimeout": 5000
+  },
+  "platforms": {
+    "google-cli": {
+      "enabled": true,
+      "timeout": 300000,
+      "maxConcurrentTasks": 5,
+      "defaultRegion": "us-central1",
+      "workspacePath": "./workspace/google-cli"
+    },
+    "windsurf": {
+      "enabled": true,
+      "timeout": 600000,
+      "maxConcurrentTasks": 3,
+      "defaultEndpoint": "http://localhost:8080",
+      "workspacePath": "./workspace/windsurf"
+    }
+  },
+  "security": {
+    "apiKeyRequired": false,
+    "rateLimiting": {
+      "enabled": true,
+      "windowMs": 900000,
+      "maxRequests": 100
+    },
+    "fileUpload": {
+      "maxFileSize": "50MB",
+      "allowedTypes": ["text/*", "application/json", "application/xml"]
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/bridge.log",
+    "maxSize": "10MB",
+    "maxFiles": 5
+  }
+}

@@ -1,0 +1,5 @@
+- [ ] Modify `src/server.js` to add `/antigravity/review-step` and `/antigravity/live-review` [/]
+- [ ] Create `scripts/push_step.py` for Windsurf hooks [/]
+- [ ] Create `config/hooks.json` example [/]
+- [ ] Verify the SSE stream with manual dummy events [/]
+- [ ] Final walkthrough and documentation [/]

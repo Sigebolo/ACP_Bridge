@@ -1,0 +1,19 @@
+{
+  "agents": [
+    {
+      "name": "Gemini CLI",
+      "command": [
+        "cmd",
+        "/c",
+        "npx @google/gemini-cli --experimental-acp"
+      ],
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "tools",
+        "streaming"
+      ]
+    }
+  ],
+  "defaultAgent": "Gemini CLI"
+}

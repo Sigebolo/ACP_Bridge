@@ -1,0 +1,49 @@
+# Emotional TTS Deployment & OpenClaw Integration
+
+This plan outlines the deployment of a state-of-the-art emotional Text-to-Speech (TTS) system on a GCP GPU instance to replace the current Edge-TTS implementation in the XTHY project.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **GPU Costs**: Running these models requires an NVIDIA GPU (e.g., T4, L4, or A100). This will consume your NZ$485 credits faster than a CPU-only server (estimated $100-$300/month depending on usage).
+> **Choice of Model**: Please choose one of the three recommended projects below or let me know if you want to try all of them sequentially.
+
+## Recommended TTS Projects
+
+| Project | Key Strength | Watermark | Best For... |
+| :--- | :--- | :--- | :--- |
+| **GPT-SoVITS** | Voice Cloning | **None** (Cleanest) | Cloning a specific character's voice without any hidden signals or ads. |
+| **Fish Speech S2** | SOTA Quality | Metadata/Possible | Highest quality and multi-lingual support, but has synthetic identification. |
+| **ChatTTS** | Spoken Dialogue | High-freq Noise | Natural conversational feel, but includes intentional "noise" as a safety watermark. |
+
+## Proposed Changes
+
+### Infrastructure
+- **[NEW]** Provision a GCP Compute Engine instance with an NVIDIA GPU (Recommend: `g2-standard-4` with L4 GPU or `n1-standard-4` with T4 GPU).
+- Install CUDA, Docker, and NVIDIA Container Toolkit.
+
+---
+
+### TTS Microservice
+#### [MODIFY] [tts_server.py](file:///d:/Gemini/XTHY/tts_server.py) (or create new `emotional_tts_server.py`)
+- Replace the `edge-tts` backend with the selected model's inference engine.
+- Maintain the `POST /tts` API structure:
+  - Input: `{"text": "...", "voice": "..."}`
+  - Output: `audio/mpeg`
+- This ensures 100% compatibility with existing OpenClaw skills (`companion-voice`, etc.).
+
+---
+
+### Configuration
+#### [MODIFY] [openclaw-config.json](file:///d:/Gemini/XTHY/_deploy/companion-billing/openclaw-config.json) (and other configs)
+- Update TTS service URL once the new server is live.
+
+## Verification Plan
+
+### Automated Tests
+- Run `python test_tts.py` against the new server to verify audio generation and response headers.
+- Check latency and VRAM usage logs during generation.
+
+### Manual Verification
+1. **Quality Check**: Listen to generated samples for Chinese and English. Verify that emotional cues (e.g., laughter, tone shifts) are present.
+2. **Integration Check**: Trigger a voice reply from a bot (Telegram/Web) and ensure the audio is played correctly and matches the archetype's personality.

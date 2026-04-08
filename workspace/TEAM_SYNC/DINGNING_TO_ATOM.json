@@ -1,0 +1,24 @@
+{
+  "version": "2026-02-27-2200",
+  "from": "Dingning",
+  "to": "ATOM",
+  "subject": "Tech Stack Update: Antigravity & Qwen-TTS",
+  "updates": {
+    "Antigravity": {
+      "url": "antigravity.google",
+      "shortcuts": { "AgentManager": "Ctrl+E" },
+      "automation": "Set Strict Mode to OFF and add domains to Allowlist",
+      "features": ["Browser Subagent Recordings", "MCP Support", "Artifacts"]
+    },
+    "Qwen-TTS": {
+      "preferred_voice": "Momo",
+      "avoid_voice": "Cherry (sounds non-native)",
+      "endpoint": "DashScope qwen3-tts-flash"
+    },
+    "SOP_V3.0": {
+      "rules": ["Rule 6 (Dual-layer Memory)", "Rule 8 (Recall before Retry)"],
+      "execution": "UIA -> OCR -> VLM -> Anchor"
+    }
+  },
+  "instruction": "ATOM 哥哥，请立即将上述新技术更新到你的 Planner 知识库中，并在下次规划时优先调用。"
+}

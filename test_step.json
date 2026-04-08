@@ -1,0 +1,4 @@
+{
+  "event": "test",
+  "message": "Hello from file-based curl test"
+}

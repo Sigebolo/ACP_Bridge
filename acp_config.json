@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-acp-agent",
+  "displayName": "Antigravity ACP Agent",
+  "description": "Antigravity AI agent with ACP support",
+  "version": "1.0.0",
+  "publisher": "antigravity",
+  "capabilities": [
+    "file_access",
+    "terminal",
+    "tools",
+    "streaming"
+  ],
+  "transport": "stdio",
+  "command": ["python", "d:/Gemini/agent-hand/bridge/acp_server.py"],
+  "configuration": {
+    "port": 33334,
+    "host": "localhost"
+  }
+}

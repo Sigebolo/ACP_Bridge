@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_TASK",
+  "summary": "Task list for reviewing Gemini API usage and billing. Includes searching the codebase, checking local logs, navigating to Google AI Studio, and synthesizing findings.",
+  "updatedAt": "2026-03-19T04:58:42.219007500Z"
+}

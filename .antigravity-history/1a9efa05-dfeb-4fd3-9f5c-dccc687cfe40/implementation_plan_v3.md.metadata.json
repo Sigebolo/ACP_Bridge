@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Transitioning to Agentic Task Delivery. Instead of flaky RPA typing, I will push Windsurf actions directly to the local Antigravity Connector (8081), which will save them as Markdown tasks for the AI to review. RPA will be used only as a minimalist \"Wake up\" signal targeting the exact Antigravity.exe process.",
+  "updatedAt":  "2026-04-06T03:25:24.489701300Z",
+  "requestFeedback":  true
+}

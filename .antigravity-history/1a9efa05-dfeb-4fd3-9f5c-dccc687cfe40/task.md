@@ -1,0 +1,9 @@
+- [x] Modify `src/server.js` to add `/antigravity/review-step` and `/antigravity/live-review`
+- [x] Create `scripts/push_step.py` for Windsurf hooks
+- [x] Create `config/hooks.json` example
+- [x] Verify the SSE stream with manual dummy events
+- [x] Final walkthrough and documentation
+- [ ] Integrate Bridge Server (3000) with Antigravity Connector (8081) [/]
+- [ ] Implement Agentic Task Message in RPA trigger [/]
+- [ ] Fix `trigger-antigravity.ps1` to target `Antigravity.exe` specifically [/]
+- [ ] Verify the full "Agentic Delivery" loop [/]

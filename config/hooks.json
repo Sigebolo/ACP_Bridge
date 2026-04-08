@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "post_read_code": [
+      {
+        "command": "python d:/Gemini/agent-hand/bridge/acp_hook_handler.py --event read --file {{file}} --content {{content}}"
+      }
+    ],
+    "post_write_code": [
+      {
+        "command": "python d:/Gemini/agent-hand/bridge/acp_hook_handler.py --event write --file {{file}} --diff {{diff}}"
+      }
+    ],
+    "post_run_command": [
+      {
+        "command": "python d:/Gemini/agent-hand/bridge/acp_hook_handler.py --event cmd --command {{command}} --output {{output}}"
+      }
+    ],
+    "post_mcp_tool_use": [
+      {
+        "command": "python d:/Gemini/agent-hand/bridge/acp_hook_handler.py --event mcp --tool {{tool}} --result {{result}}"
+      }
+    ],
+    "post_cascade_response": [
+      {
+        "command": "python d:/Gemini/agent-hand/bridge/acp_hook_handler.py --event response --reasoning {{reasoning}}"
+      }
+    ]
+  }
+}

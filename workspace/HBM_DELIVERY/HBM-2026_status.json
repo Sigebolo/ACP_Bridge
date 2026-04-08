@@ -1,0 +1,20 @@
+{
+  "id": "HBM-2026",
+  "project": "Heartbeat Memories 2.0",
+  "status": "in_progress",
+  "progress": 70,
+  "currentPhase": "Phase 3 Complete / Awaiting Phase 4",
+  "currentStep": "Phase 1-3全部完成。Phase 4待展开: 支付Webhook、订阅管理UI、正式集成测试。",
+  "updatedAt": "2026-02-25T01:45:00Z",
+  "estimatedPhase1Completion": "2026-03-28T00:00:00Z",
+  "team": {
+    "owner": "Dr. Tenma",
+    "pm": "Atom",
+    "devLead": "Antigravity",
+    "dev": "Windsurf"
+  },
+  "activeTasks": [
+    {"id": "HBM-001", "assignee": "Antigravity", "title": "Archetype system.md 模板 x8", "status": "pending"},
+    {"id": "HBM-005", "assignee": "Windsurf", "title": "Web Canvas 管理界面 (基础版)", "status": "pending"}
+  ]
+}

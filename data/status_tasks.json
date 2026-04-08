@@ -1,0 +1,728 @@
+{
+  "a95cdcae-d3d4-4224-8428-db8e8026e2fa": {
+    "id": "a95cdcae-d3d4-4224-8428-db8e8026e2fa",
+    "type": "requirement",
+    "title": "????????",
+    "status": "pending",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:01.170Z",
+    "updatedAt": "2026-02-22T01:24:01.170Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:01.170Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "56a64511-b63c-43ff-bb52-ca941bd0ef06": {
+    "id": "56a64511-b63c-43ff-bb52-ca941bd0ef06",
+    "type": "requirement",
+    "title": "????????",
+    "status": "pending",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:05.147Z",
+    "updatedAt": "2026-02-22T01:24:05.147Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:05.147Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "b6caf68d-7a5f-4236-8308-9ce23cbfe584": {
+    "id": "b6caf68d-7a5f-4236-8308-9ce23cbfe584",
+    "type": "decision",
+    "title": "??????",
+    "status": "active",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:23.493Z",
+    "updatedAt": "2026-02-22T01:24:23.493Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:23.493Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "6cdd24b7-4f83-4419-967d-3fd0748a6f65": {
+    "id": "6cdd24b7-4f83-4419-967d-3fd0748a6f65",
+    "type": "decision",
+    "title": "??????",
+    "status": "active",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:27.173Z",
+    "updatedAt": "2026-02-22T01:24:27.173Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:27.173Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "1c28027c-fb22-4975-8863-1801387e62b4": {
+    "id": "1c28027c-fb22-4975-8863-1801387e62b4",
+    "type": "decision",
+    "title": "??????",
+    "status": "active",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:30.101Z",
+    "updatedAt": "2026-02-22T01:24:30.101Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:30.101Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "8e9daebc-fe3e-4e8b-a732-5a60111f0d72": {
+    "id": "8e9daebc-fe3e-4e8b-a732-5a60111f0d72",
+    "type": "requirement",
+    "title": "实现用户认证系统",
+    "status": "pending",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:43.024Z",
+    "updatedAt": "2026-02-22T01:24:43.024Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:43.024Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "584571e3-05d4-4ccb-920d-71e69b947673": {
+    "id": "584571e3-05d4-4ccb-920d-71e69b947673",
+    "type": "decision",
+    "title": "选择认证方案",
+    "status": "active",
+    "priority": "high",
+    "platformId": null,
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T01:24:45.081Z",
+    "updatedAt": "2026-02-22T01:24:45.081Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T01:24:45.081Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "bbae2f75-4adb-4e26-a144-2cb330ed2e9f": {
+    "id": "bbae2f75-4adb-4e26-a144-2cb330ed2e9f",
+    "type": "platform_task",
+    "title": "Hello Antigravity",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "a19fd1e2-5754-45ac-a3a4-8f771d209af6",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T03:21:04.715Z",
+    "updatedAt": "2026-02-22T03:21:04.715Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T03:21:04.715Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "bda5e7d8-41e9-41ae-a875-c5f85e336daf": {
+    "id": "bda5e7d8-41e9-41ae-a875-c5f85e336daf",
+    "type": "platform_task",
+    "title": "Hello Antigravity 2",
+    "status": "completed",
+    "priority": "high",
+    "platformId": "a19fd1e2-5754-45ac-a3a4-8f771d209af6",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T03:26:32.889Z",
+    "updatedAt": "2026-02-22T03:27:02.418Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T03:27:02.418Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T03:26:32.889Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T03:27:02.418Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T03:27:02.418Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "9f0081b5-abae-4d5b-a391-96630682599a": {
+    "id": "9f0081b5-abae-4d5b-a391-96630682599a",
+    "type": "platform_task",
+    "title": "Bridge??????",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "f435345e-08eb-4068-8d3a-c1cd28758be4",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T03:50:54.696Z",
+    "updatedAt": "2026-02-22T03:50:54.696Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T03:50:54.696Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "4c7d8d89-0b7c-4d5e-b2d4-66f51b56e0e2": {
+    "id": "4c7d8d89-0b7c-4d5e-b2d4-66f51b56e0e2",
+    "type": "platform_task",
+    "title": "OpenClaw-Atom ????",
+    "status": "pending",
+    "priority": "medium",
+    "platformId": "69a8c8e8-b83d-42b8-911d-3f0a15535fce",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T04:01:40.610Z",
+    "updatedAt": "2026-02-22T04:01:40.610Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:01:40.610Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "1648f062-7f47-4fe2-9cc2-37a9b849292f": {
+    "id": "1648f062-7f47-4fe2-9cc2-37a9b849292f",
+    "type": "platform_task",
+    "title": "????????",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T04:04:55.849Z",
+    "updatedAt": "2026-02-22T04:04:55.849Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:04:55.849Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "be83c185-35d7-48d6-8568-4352761f25ad": {
+    "id": "be83c185-35d7-48d6-8568-4352761f25ad",
+    "type": "platform_task",
+    "title": "中文编码验证测试 v3",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T04:05:19.048Z",
+    "updatedAt": "2026-02-22T04:05:19.048Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:05:19.048Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "1b2e33b6-64e9-4616-bd38-1af98aae8aa4": {
+    "id": "1b2e33b6-64e9-4616-bd38-1af98aae8aa4",
+    "type": "platform_task",
+    "title": "Bridge 联调总结与自动巡检任务",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T04:06:18.056Z",
+    "updatedAt": "2026-02-22T04:06:18.056Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:06:18.056Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "876cdcd1-30e0-4408-b189-b4b0eee15b19": {
+    "id": "876cdcd1-30e0-4408-b189-b4b0eee15b19",
+    "type": "platform_task",
+    "title": "自动触发测试",
+    "status": "completed",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T04:10:28.118Z",
+    "updatedAt": "2026-02-22T04:15:38.345Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T04:15:38.345Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:10:28.118Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T04:15:38.345Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T04:15:38.345Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "e323261b-d420-42f5-92e6-03b4338d4af6": {
+    "id": "e323261b-d420-42f5-92e6-03b4338d4af6",
+    "type": "platform_task",
+    "title": "主动唤醒验证 D",
+    "status": "completed",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T04:24:07.537Z",
+    "updatedAt": "2026-02-22T04:27:07.661Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T04:27:07.661Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:24:07.537Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T04:27:07.661Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T04:27:07.661Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "a519a149-addb-4918-80ac-6698704c1787": {
+    "id": "a519a149-addb-4918-80ac-6698704c1787",
+    "type": "platform_task",
+    "title": "完整流程验证",
+    "status": "completed",
+    "priority": "medium",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T04:28:01.235Z",
+    "updatedAt": "2026-02-22T04:29:27.355Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T04:29:27.355Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:28:01.235Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T04:29:27.355Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T04:29:27.355Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "fe313e5c-8d90-4254-bd41-de9ddc16b547": {
+    "id": "fe313e5c-8d90-4254-bd41-de9ddc16b547",
+    "type": "platform_task",
+    "title": "监听器重启验证",
+    "status": "completed",
+    "priority": "low",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T04:30:32.167Z",
+    "updatedAt": "2026-02-22T04:31:43.007Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T04:31:43.007Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:30:32.167Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T04:31:43.007Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T04:31:43.007Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "9f362cf8-afd2-494a-82c5-000d602c7025": {
+    "id": "9f362cf8-afd2-494a-82c5-000d602c7025",
+    "type": "platform_task",
+    "title": "全自动终极验收",
+    "status": "pending",
+    "priority": "critical",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T04:34:58.692Z",
+    "updatedAt": "2026-02-22T04:34:58.692Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:34:58.692Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "3ba87cb4-9cca-42a2-a2b9-8e228a6548bd": {
+    "id": "3ba87cb4-9cca-42a2-a2b9-8e228a6548bd",
+    "type": "platform_task",
+    "title": "全自动验收 v2",
+    "status": "pending",
+    "priority": "critical",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T04:35:32.317Z",
+    "updatedAt": "2026-02-22T04:35:32.317Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T04:35:32.317Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "2bb36fcc-92a8-4557-8d48-f75c79175089": {
+    "id": "2bb36fcc-92a8-4557-8d48-f75c79175089",
+    "type": "platform_task",
+    "title": "Option E 原生唤醒测试",
+    "status": "completed",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T06:48:19.395Z",
+    "updatedAt": "2026-02-22T06:55:12.976Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T06:55:12.976Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T06:48:19.395Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T06:55:12.976Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T06:55:12.976Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "5256556a-8431-485a-b4ee-0d3564984520": {
+    "id": "5256556a-8431-485a-b4ee-0d3564984520",
+    "type": "platform_task",
+    "title": "Option E 完整测试",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T07:04:41.113Z",
+    "updatedAt": "2026-02-22T07:04:41.113Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T07:04:41.113Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "09757663-e359-47fb-86b8-6098104db3f5": {
+    "id": "09757663-e359-47fb-86b8-6098104db3f5",
+    "type": "platform_task",
+    "title": "Option E 最终验证",
+    "status": "pending",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T07:15:22.135Z",
+    "updatedAt": "2026-02-22T07:15:22.135Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T07:15:22.135Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "19d5adfc-48aa-442b-a1ea-92dda474f053": {
+    "id": "19d5adfc-48aa-442b-a1ea-92dda474f053",
+    "type": "platform_task",
+    "title": "RPA 窗口定位测试",
+    "status": "completed",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T07:45:07.175Z",
+    "updatedAt": "2026-02-22T08:05:42.682Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T08:05:42.682Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T07:45:07.176Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T08:05:42.682Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T08:05:42.683Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "59e2ef37-d105-476a-b2cb-0182b0e5c74c": {
+    "id": "59e2ef37-d105-476a-b2cb-0182b0e5c74c",
+    "type": "platform_task",
+    "title": "图片匹配方案验证",
+    "status": "completed",
+    "priority": "high",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 100,
+    "createdAt": "2026-02-22T08:05:53.925Z",
+    "updatedAt": "2026-02-22T08:06:23.181Z",
+    "startedAt": null,
+    "completedAt": "2026-02-22T08:06:23.181Z",
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T08:05:53.925Z",
+        "status": "pending",
+        "message": "Task created"
+      },
+      {
+        "timestamp": "2026-02-22T08:06:23.181Z",
+        "status": "completed",
+        "message": "Status changed from pending to completed"
+      },
+      {
+        "timestamp": "2026-02-22T08:06:23.181Z",
+        "status": "completed",
+        "progress": 100,
+        "message": "Progress updated to 100%"
+      }
+    ]
+  },
+  "bbe8e9cd-48c1-4c58-a1b3-242c63d50f27": {
+    "id": "bbe8e9cd-48c1-4c58-a1b3-242c63d50f27",
+    "type": "platform_task",
+    "title": "AAQ 项目上线前收尾工作",
+    "status": "pending",
+    "priority": "critical",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T08:16:37.873Z",
+    "updatedAt": "2026-02-22T08:16:37.873Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T08:16:37.873Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "28584beb-bd69-4a1e-afcf-e92554e38144": {
+    "id": "28584beb-bd69-4a1e-afcf-e92554e38144",
+    "type": "platform_task",
+    "title": "AAQ 项目上线前收尾工作",
+    "status": "pending",
+    "priority": "critical",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T08:18:45.657Z",
+    "updatedAt": "2026-02-22T08:18:45.657Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T08:18:45.657Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "95e92021-403f-492c-a700-c7ed377911f8": {
+    "id": "95e92021-403f-492c-a700-c7ed377911f8",
+    "type": "platform_task",
+    "title": "【重要】Bridge 工作流程说明",
+    "status": "pending",
+    "priority": "critical",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T08:56:08.484Z",
+    "updatedAt": "2026-02-22T08:56:08.484Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T08:56:08.484Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  },
+  "717251ff-77ab-4c26-898f-c7f015ee0711": {
+    "id": "717251ff-77ab-4c26-898f-c7f015ee0711",
+    "type": "platform_task",
+    "title": "请立即阅读工作流程文档",
+    "status": "pending",
+    "priority": "critical",
+    "platformId": "16c03b79-cfb5-45e8-a4b1-0b01d2a13480",
+    "requirementId": null,
+    "progress": 0,
+    "createdAt": "2026-02-22T08:59:10.643Z",
+    "updatedAt": "2026-02-22T08:59:10.643Z",
+    "startedAt": null,
+    "completedAt": null,
+    "metadata": {},
+    "history": [
+      {
+        "timestamp": "2026-02-22T08:59:10.643Z",
+        "status": "pending",
+        "message": "Task created"
+      }
+    ]
+  }
+}

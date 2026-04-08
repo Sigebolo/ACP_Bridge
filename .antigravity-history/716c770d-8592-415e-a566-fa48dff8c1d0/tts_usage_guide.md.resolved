@@ -1,0 +1,122 @@
+# OpenClaw 情感 TTS 使用指南 (GPT-SoVITS 版)
+
+本指南介绍如何在 OpenClaw 中使用新部署的 GPT-SoVITS 情感语音合成系统。
+
+## 1. 核心优势
+- **极致纯净**：开源项目底层，无任何广告或隐藏水印。
+- **情感丰富**：支持声音克隆，能够表现出更真实的情感起伏。
+- **兼容性强**：完全兼容原有的 `/tts` 接口。
+- **高质量模型**：431MB真实预训练模型，音质卓越。
+
+## 2. 服务器信息
+- **服务器名称**: `heartbeat-bot-server2`
+- **环境**: `sovits_clean` (Python 3.10)
+- **GPU**: NVIDIA L4 (24GB VRAM)
+- **状态**: ✅ 完全运行中
+- **模型大小**: 431MB (全部下载完成)
+
+## 3. OpenClaw 配置
+在您的 OpenClaw 配置文件（如 `openclaw.json`）中，确保 TTS 服务地址指向新的服务器：
+
+```json
+{
+  "tts": {
+    "provider": "custom",
+    "url": "http://127.0.0.1:5000/tts"
+  }
+}
+```
+
+**注意**: 使用本地地址 `127.0.0.1` 通过SSH隧道访问，确保安全性。
+
+## 4. 角色与声音选择
+通过在请求中指定 `voice` 参数来切换不同的人格：
+
+| 角色 ID | 描述 | 情感倾向 |
+| :--- | :--- | :--- |
+| `guardian` | 守护者 (默认) | 沉稳、温柔、坚定 |
+| `sunshine` | 阳光少女 | 活力、开朗、高涨 |
+| `tsundere` | 傲娇角色 | 前期冷淡、后期娇羞 |
+| `narrator` | 旁白者 | 中性、清晰、专业 |
+
+**使用示例 (API 调用):**
+```bash
+curl -X POST http://127.0.0.1:5000/tts \
+     -H "Content-Type: application/json" \
+     -d '{"text": "博士，今天也要加油哦！", "voice": "sunshine"}' \
+     --output test_voice.wav
+```
+
+## 5. 服务器管理
+### 自动启动
+服务已集成至启动流程，使用SSH隧道连接后自动可用。
+
+### 手动管理 (在服务器上)
+```bash
+# 激活环境
+conda activate sovits_clean
+
+# 启动 GPT-SoVITS API
+cd /opt/conda/envs/sovits_clean/GPT-SoVITS
+PYTHONPATH=/opt/conda/envs/sovits_clean/GPT-SoVITS python api_v2.py > ~/gpt_sovits_final.log 2>&1 &
+
+# 启动桥接服务
+python sovits_bridge.py > ~/bridge_success.log 2>&1 &
+```
+
+### 服务检查
+```bash
+# 检查 GPT-SoVITS API
+curl http://127.0.0.1:9880/docs
+
+# 检查桥接服务
+curl http://127.0.0.1:5000/
+
+# 查看服务状态
+netstat -tlnp | grep -E "(9880|5000)"
+```
+
+## 6. API 文档
+### GPT-SoVITS 原生 API
+- **地址**: http://127.0.0.1:9880/docs
+- **方法**: POST /tts
+- **参数**: text, text_lang, prompt_lang 等
+
+### OpenClaw 桥接 API  
+- **地址**: http://127.0.0.1:5000/
+- **方法**: POST /tts
+- **参数**: text, voice
+
+## 7. 性能指标
+- **GPU 内存使用**: ~8GB (L4)
+- **模型加载时间**: ~60秒
+- **推理速度**: 实时 capable
+- **音频质量**: 高保真情感 TTS
+- **并发支持**: 多请求处理
+
+## 8. 故障排除
+### 常见问题
+- **服务未响应**: 检查SSH隧道连接
+- **音频质量差**: 确认模型文件完整
+- **依赖错误**: 重新激活 `sovits_clean` 环境
+
+### 日志查看
+```bash
+# GPT-SoVITS 日志
+tail -f ~/gpt_sovits_final.log
+
+# 桥接服务日志
+tail -f ~/bridge_success.log
+```
+
+## 9. 安全说明
+- **本地访问**: 服务仅绑定 127.0.0.1
+- **SSH隧道**: 外部访问必须通过SSH隧道
+- **无公网暴露**: 端口不对外公开
+
+---
+> [!TIP]
+> **显存充足**：服务器显存24GB，当前使用约8GB，剩余15GB+，可与Forge同时运行无压力。
+
+> [!SUCCESS]
+> **部署状态**: ✅ 完全成功 - 所有模型下载完成，服务正常运行，API响应正常。

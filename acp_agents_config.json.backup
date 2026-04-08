@@ -1,0 +1,93 @@
+{
+  "agents": {
+    "gemini-cli": {
+      "name": "Gemini CLI",
+      "description": "Google's Gemini CLI with ACP support",
+      "command": ["cmd", "/c", "npx @google/gemini-cli --experimental-acp"],
+      "transport": "stdio",
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "streaming",
+        "mcp"
+      ],
+      "settings": {
+        "model": "gemini-2.0-flash-exp",
+        "temperature": 0.7,
+        "maxTokens": 8192
+      }
+    },
+    "claude-code": {
+      "name": "Claude Agent ACP",
+      "description": "Claude Agent with ACP support",
+      "command": ["node", "d:/Gemini/agent-hand/claude-agent-acp/dist/index.js"],
+      "transport": "stdio",
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "tools",
+        "streaming",
+        "mcp"
+      ],
+      "settings": {
+        "model": "claude-3.5-sonnet",
+        "temperature": 0.2,
+        "maxTokens": 8192
+      }
+    },
+    "windsurf": {
+      "name": "Windsurf",
+      "description": "Windsurf IDE with native AI agent integration",
+      "provider": "cursor",
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "tools",
+        "streaming",
+        "mcp"
+      ]
+    },
+    "openclaw": {
+      "name": "OpenClaw",
+      "description": "OpenClaw with ACP support",
+      "command": ["python", "d:/Gemini/agent-hand/openclaw"],
+      "transport": "stdio",
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "tools",
+        "streaming",
+        "mcp"
+      ]
+    },
+    "antigravity": {
+      "name": "Antigravity ACP",
+      "description": "Antigravity with ACP support",
+      "command": ["python", "d:/Gemini/agent-hand/antigravity"],
+      "transport": "stdio",
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "tools",
+        "streaming",
+        "mcp"
+      ]
+    },
+    "crewai": {
+      "name": "CrewAI",
+      "description": "CrewAI - Multi-agent orchestration platform",
+      "command": ["crewai", "run"],
+      "transport": "stdio",
+      "capabilities": [
+        "file_access",
+        "terminal",
+        "tools",
+        "streaming",
+        "mcp"
+      ]
+    }
+  },
+  "defaultAgent": "Gemini CLI",
+  "autoStart": true,
+  "timeout": 30000
+}

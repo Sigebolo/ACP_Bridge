@@ -1,0 +1,7 @@
+# TTS Research & Deployment (GCP)
+
+- [x] Research top emotional TTS projects (GPT-SoVITS, ChatTTS, Fish Speech)
+- [x] Evaluate deployment requirements (GPU/CPU/RAM)
+- [x] Design OpenClaw integration layer
+- [x] Prepare deployment script for GCP
+- [ ] Verify emotional performance and multi-lingual support

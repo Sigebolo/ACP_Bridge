@@ -1,0 +1,41 @@
+# Phase 4: CLI Consolidation & Memory Persistence
+
+To address Windsurf's "hallucination" and your request for a CLI, I am creating a formal **Antigravity CLI** and a **Sync Protocol Memory** for Windsurf.
+
+## User Review Required
+
+> [!IMPORTANT]
+> Windsurf previously tried to "fix" the system by disabling the Connector (8081). This was a hallucination. The Connector is **critical** for generating the task files I read. I'll add a persistent instruction for Windsurf to stop it from breaking this architecture.
+
+## Proposed Changes
+
+### [Component] Bridge CLI (Python)
+
+#### [NEW] [antigravity.py](file:///d:/Gemini/agent-hand/bridge/scripts/antigravity.py)
+-   **Commands**:
+    -   `push`: Formats and sends Windsurf actions (replace `push_step.py`).
+    -   `status`: Checks the health of 3000 and 8081.
+    -   `reset`: Force-kills and restarts all Node services.
+-   **Logic**: Centralizes all sync communication to the Bridge (3000) and Connector (8081).
+
+### [Component] Windsurf Knowledge Base
+
+#### [NEW] [sync_architecture.md](file:///d:/Gemini/agent-hand/bridge/.windsurf/memories/sync_architecture.md)
+-   **Instructions for Windsurf**:
+    -   **DO NOT DISABLE 8081 CONNECTOR**.
+    -   **Flow**: Bridge (3000) captures events -> Connector (8081) writes tasks -> RPA focus.
+    -   **CLI**: Use `python scripts/antigravity.py` for all sync operations.
+
+## Open Questions
+
+-   Should I automatically update your `.windsurf/hooks.json` to use the new `antigravity.py` instead of the old `push_step.py`?
+-   Isport **8081** confirmed to be the standard port for the Antigravity Connector?
+
+## Verification Plan
+
+### Automated Tests
+-   Verify `python scripts/antigravity.py status` returns Success for both ports.
+-   Verify `python scripts/antigravity.py push` results in a new `.md` file in `workspace/antigravity_tasks/`.
+
+### Manual Verification
+-   Trigger a real change in Windsurf and ensure it uses the new CLI.
