@@ -1,6 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary":  "Implementation plan to solve RPA focusing issues and add sophisticated history management for the Windsurf Bridge. Includes single-step lookup API, message enrichment, and robust UI automation fixes.",
-  "updatedAt":  "2026-04-06T03:15:02.204457600Z",
-  "requestFeedback":  true
-}

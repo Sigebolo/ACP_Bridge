@@ -63,6 +63,13 @@ windsurf_notifications/*
 gemini_responses/*
 !gemini_responses/.gitkeep
 
+# Runtime and cache directories
+.antigravity-history/
+.genkit/
+logs/
+__pycache__/
+*.log
+
 # Exclude non-ACP Bridge projects
 workspace/
 test_crew/
