@@ -46,7 +46,7 @@ npm start
 ```
 
 服务将在以下端口启动：
-- REST API: `http://localhost:3000`
+- **Windsurf**:  `http://localhost:8080` (default endpoint)
 - WebSocket: `ws://localhost:3001`
 
 ## API 文档
@@ -114,7 +114,7 @@ Content-Type: application/json
     "project": "my-project",
     "region": "us-central1",
     "auth": {
-      "credentials": "path/to/credentials.json"
+      "credentials": "path/to/your-credentials.json"
     }
   }
 }
